@@ -6,7 +6,8 @@
         justify-content: flex-start;
         margin-left: 0;
         border: 0;
-        padding: 15px 16px;
+        padding: 12px 16px;
+        line-height: 1.8rem;
     }
 }
 
@@ -18,4 +19,25 @@
     &:hover {
         background-color: rgba(22, 23, 35, 0.03);
     }
+}
+
+.header {
+    position: relative;
+    height: 50px;
+    margin-top: -8px;
+}
+.back-button {
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: 600;
 }

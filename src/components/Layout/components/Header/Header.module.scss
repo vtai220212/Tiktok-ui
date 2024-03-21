@@ -12,6 +12,7 @@
 .inner {
     width: var(--header-primary-width);
     height: var(--header-primary-height);
+    padding: var(--default-layout-spacer) 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,7 +82,8 @@
 }
 
 .btn-more {
-    padding-left: 10px;
+    padding-left: 16px;
     font-size: 20px;
     background-color: transparent;
+    cursor: pointer;
 }
